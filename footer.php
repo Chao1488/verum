@@ -1,8 +1,9 @@
+<div class="marketing-page">
 <div class="container">
   <div class="feedback-block">
     <h6 class="pre-headline"><?php the_field('mainpage_footer_pre_headline'); ?></h6>
     <h2 class="page-headline ta-c"><?php the_field('mainpage_footer_page_headline'); ?></h2>
-    <p><?php the_field('mainpage_footer_page_p'); ?></p><a class="custom-btn" href="javascript:void(0);" id="feedbackModalTrigger"><span>Задать вопрос</span>
+    <p><?php the_field('mainpage_footer_page_p'); ?></p><a class="custom-btn" href="javascript:void(0);" id="feedbackModalTrigger"><span><?php the_field('mainpage_footer_button'); ?></span>
       <svg id="button" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36.1 25.8" enable-background="new 0 0 36.1 25.8" xml:space="preserve">
         <g>
           <polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="22.2,1.1 34,12.9 22.2,24.7"></polyline>
@@ -141,6 +142,7 @@
       </form>
     </div>
   </div>
+</div>
 </div>
 </div>
 <div class="mobile-menu" id="mobile-menu">
